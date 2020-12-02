@@ -2,7 +2,7 @@
 
 const dialogflow = require("@google-cloud/dialogflow");
 const config = require("../config/keys");
-const structjson = require("./structjson")
+const structjson = require("./structJson")
 
 const projectID = config.googleProjectID;
 
