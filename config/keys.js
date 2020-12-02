@@ -1,5 +1,5 @@
-module.exports = {
-    googleProjectID : "meetup-info-jbfu",
-    dialogFlowSessionID : "react-bot-session",
-    dialogFlowSessionLanguageCode : "English-en"
+if (process.env.NODE_ENV === "production") {
+	module.exports = require("./prod");
+} else {
+	module.exports = require("./div");
 }
