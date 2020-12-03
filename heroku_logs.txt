@@ -1,0 +1,100 @@
+2020-12-03T04:07:46.417380+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-12-03T04_07_46_404Z-debug.log
+2020-12-03T04:07:46.498413+00:00 heroku[web.1]: Process exited with status 1
+2020-12-03T04:07:46.541271+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-03T04:08:04.781100+00:00 app[api]: Release v39 created by user asapthaka@gmail.com
+2020-12-03T04:08:04.781100+00:00 app[api]: Set GOOGLE_PROJECT_ID config vars by user asapthaka@gmail.com
+2020-12-03T04:08:05.582518+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-03T04:08:06.521751+00:00 app[api]: Remove process.env.GOOGLE_PROJECT_ID config vars by user asapthaka@gmail.com
+2020-12-03T04:08:06.521751+00:00 app[api]: Release v40 created by user asapthaka@gmail.com
+2020-12-03T04:08:06.884642+00:00 heroku[web.1]: Restarting
+2020-12-03T04:08:08.643531+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-12-03T04:08:10.050116+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-12-03T04:08:11.309203+00:00 app[web.1]:
+2020-12-03T04:08:11.309228+00:00 app[web.1]: > reactbot@1.0.0 start /app
+2020-12-03T04:08:11.309228+00:00 app[web.1]: > node index.js
+2020-12-03T04:08:11.309228+00:00 app[web.1]:
+2020-12-03T04:08:11.942343+00:00 app[web.1]: /app/config/prod.js:2
+2020-12-03T04:08:11.942363+00:00 app[web.1]: googleProjectID: GOOGLE_PROJECT_ID,
+2020-12-03T04:08:11.942363+00:00 app[web.1]: ^
+2020-12-03T04:08:11.942364+00:00 app[web.1]:
+2020-12-03T04:08:11.942366+00:00 app[web.1]: ReferenceError: GOOGLE_PROJECT_ID is not defined
+2020-12-03T04:08:11.942367+00:00 app[web.1]: at Object.<anonymous> (/app/config/prod.js:2:19)
+2020-12-03T04:08:11.942367+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:1063:30)
+2020-12-03T04:08:11.942368+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2020-12-03T04:08:11.942368+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:928:32)
+2020-12-03T04:08:11.942369+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2020-12-03T04:08:11.942369+00:00 app[web.1]: at Module.require (internal/modules/cjs/loader.js:952:19)
+2020-12-03T04:08:11.942370+00:00 app[web.1]: at require (internal/modules/cjs/helpers.js:88:18)
+2020-12-03T04:08:11.942370+00:00 app[web.1]: at Object.<anonymous> (/app/config/keys.js:2:19)
+2020-12-03T04:08:11.942370+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:1063:30)
+2020-12-03T04:08:11.942371+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2020-12-03T04:08:11.971971+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-12-03T04:08:11.972338+00:00 app[web.1]: npm ERR! errno 1
+2020-12-03T04:08:11.978817+00:00 app[web.1]: npm ERR! reactbot@1.0.0 start: `node index.js`
+2020-12-03T04:08:11.979060+00:00 app[web.1]: npm ERR! Exit status 1
+2020-12-03T04:08:11.979318+00:00 app[web.1]: npm ERR!
+2020-12-03T04:08:11.979571+00:00 app[web.1]: npm ERR! Failed at the reactbot@1.0.0 start script.
+2020-12-03T04:08:11.979782+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-12-03T04:08:11.994028+00:00 app[web.1]: 
+2020-12-03T04:08:11.994468+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-12-03T04:08:11.994944+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-12-03T04_08_11_980Z-debug.log
+2020-12-03T04:08:12.049891+00:00 heroku[web.1]: Process exited with status 1
+2020-12-03T04:08:12.483228+00:00 app[web.1]: 
+2020-12-03T04:08:12.483265+00:00 app[web.1]: > reactbot@1.0.0 start /app
+2020-12-03T04:08:12.483266+00:00 app[web.1]: > node index.js
+2020-12-03T04:08:12.483266+00:00 app[web.1]:
+2020-12-03T04:08:13.019816+00:00 app[web.1]: /app/config/prod.js:2
+2020-12-03T04:08:13.019857+00:00 app[web.1]: googleProjectID: GOOGLE_PROJECT_ID,
+2020-12-03T04:08:13.019857+00:00 app[web.1]: ^
+2020-12-03T04:08:13.019858+00:00 app[web.1]: 
+2020-12-03T04:08:13.019859+00:00 app[web.1]: ReferenceError: GOOGLE_PROJECT_ID is not defined
+2020-12-03T04:08:13.019859+00:00 app[web.1]: at Object.<anonymous> (/app/config/prod.js:2:19)
+2020-12-03T04:08:13.019859+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:1063:30)
+2020-12-03T04:08:13.019860+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2020-12-03T04:08:13.019861+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:928:32)
+2020-12-03T04:08:13.019861+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2020-12-03T04:08:13.019861+00:00 app[web.1]: at Module.require (internal/modules/cjs/loader.js:952:19)
+2020-12-03T04:08:13.019861+00:00 app[web.1]: at require (internal/modules/cjs/helpers.js:88:18)
+2020-12-03T04:08:13.019862+00:00 app[web.1]: at Object.<anonymous> (/app/config/keys.js:2:19)
+2020-12-03T04:08:13.019862+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:1063:30)
+2020-12-03T04:08:13.019862+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2020-12-03T04:08:13.037190+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-12-03T04:08:13.037464+00:00 app[web.1]: npm ERR! errno 1
+2020-12-03T04:08:13.045440+00:00 app[web.1]: npm ERR! reactbot@1.0.0 start: `node index.js`
+2020-12-03T04:08:13.045600+00:00 app[web.1]: npm ERR! Exit status 1
+2020-12-03T04:08:13.045785+00:00 app[web.1]: npm ERR!
+2020-12-03T04:08:13.045879+00:00 app[web.1]: npm ERR! Failed at the reactbot@1.0.0 start script.
+2020-12-03T04:08:13.045943+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-12-03T04:08:13.053827+00:00 app[web.1]:
+2020-12-03T04:08:13.053945+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-12-03T04:08:13.053999+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-12-03T04_08_13_046Z-debug.log
+2020-12-03T04:08:13.102091+00:00 heroku[web.1]: Process exited with status 1
+2020-12-03T04:08:13.144632+00:00 heroku[web.1]: State changed from starting to crashed
+2020-12-03T04:08:31.716585+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=POST path="/api/df_text_query" host=frozen-bayou-07171.herokuapp.com request_id=689f0f23-f46f-4ec3-b245-8ed4e5e46ed6 fwd="112.135.45.157" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-03T04:08:36.376994+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=POST path="/api/df_text_query" host=frozen-bayou-07171.herokuapp.com request_id=b243b68f-c35f-48e3-8f33-9640596e948f fwd="112.135.45.157" dyno= connect= service= status=503 bytes= protocol=https
+2020-12-03T04:11:09.000000+00:00 app[api]: Build started by user asapthaka@gmail.com
+2020-12-03T04:11:31.208751+00:00 app[api]: Release v41 created by user asapthaka@gmail.com
+2020-12-03T04:11:31.208751+00:00 app[api]: Deploy 16663b62 by user asapthaka@gmail.com
+2020-12-03T04:11:31.639035+00:00 heroku[web.1]: State changed from crashed to starting
+2020-12-03T04:11:32.000000+00:00 app[api]: Build succeeded
+2020-12-03T04:11:34.418331+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-12-03T04:11:36.585197+00:00 app[web.1]: 
+2020-12-03T04:11:36.585215+00:00 app[web.1]: > reactbot@1.0.0 start /app
+2020-12-03T04:11:36.585216+00:00 app[web.1]: > node index.js
+2020-12-03T04:11:36.585216+00:00 app[web.1]:
+2020-12-03T04:11:37.985412+00:00 heroku[web.1]: State changed from starting to up
+2020-12-03T04:11:46.373345+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Error: ERR_OSSL_PEM_NO_START_LINE undefined: Getting metadata from plugin failed with error: error:0909006C:PEM routines:get_name:no start line
+2020-12-03T04:11:46.373370+00:00 app[web.1]: at Object.callErrorFromStatus (/app/node_modules/@grpc/grpc-js/build/src/call.js:31:26)
+2020-12-03T04:11:46.373371+00:00 app[web.1]: at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client.js:176:52)
+2020-12-03T04:11:46.373372+00:00 app[web.1]: at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:342:141)
+2020-12-03T04:11:46.373372+00:00 app[web.1]: at Object.onReceiveStatus (/app/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:305:181)
+2020-12-03T04:11:46.373373+00:00 app[web.1]: at /app/node_modules/@grpc/grpc-js/build/src/call-stream.js:124:78
+2020-12-03T04:11:46.373374+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:75:11)
+2020-12-03T04:11:46.373374+00:00 app[web.1]: (Use `node --trace-warnings ...` to show where the warning was created)
+2020-12-03T04:11:46.373845+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+2020-12-03T04:11:46.374032+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2020-12-03T04:12:16.247658+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=POST path="/api/df_text_query" host=frozen-bayou-07171.herokuapp.com request_id=0ed093ba-e36a-412e-9689-6412d3e4c6c1 fwd="112.135.45.157" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2020-12-03T04:44:08.346533+00:00 heroku[web.1]: Idling
+2020-12-03T04:44:08.349046+00:00 heroku[web.1]: State changed from up to down
+2020-12-03T04:44:09.118720+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-12-03T04:44:09.208189+00:00 heroku[web.1]: Process exited with status 143
